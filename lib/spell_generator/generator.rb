@@ -8,14 +8,14 @@ class SpellGenerator::Generator
     def generate
       spell_part1 = SPELL_SET1[rand(0...SPELL_SET1_NUMBER)]
       spell_part2 = SPELL_SET2[rand(0...SPELL_SET2_NUMBER)]
-      spell_part1 + spell_part2
+      "#{spell_part1} #{spell_part2}"
     end
   end
 
   def generate
     spell_part1 = SPELL_SET1[rand(0...SPELL_SET1_NUMBER)]
     spell_part2 = SPELL_SET2[rand(0...SPELL_SET2_NUMBER)]
-    spell_part1 + spell_part2
+    "#{spell_part1} #{spell_part2}"
   end
 
   def self_generate(*spell_parts)
