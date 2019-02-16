@@ -6,12 +6,16 @@ class SpellGenerator::Generator
 
   class << self
     def generate
-      "#{SPELL_SET1[rand(0...SPELL_SET1_NUMBER)]} #{SPELL_SET2[rand(0...SPELL_SET2_NUMBER)]}"
+      spell_part1 = SPELL_SET1[rand(0...SPELL_SET1_NUMBER)]
+      spell_part2 = SPELL_SET2[rand(0...SPELL_SET2_NUMBER)]
+      spell_part1 + spell_part2
     end
   end
 
   def generate
-    "#{SPELL_SET1[rand(0...SPELL_SET1_NUMBER)]} #{SPELL_SET2[rand(0...SPELL_SET2_NUMBER)]}"
+    spell_part1 = SPELL_SET1[rand(0...SPELL_SET1_NUMBER)]
+    spell_part2 = SPELL_SET2[rand(0...SPELL_SET2_NUMBER)]
+    spell_part1 + spell_part2
   end
 
   def self_generate(*spell_parts)
