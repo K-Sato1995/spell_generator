@@ -13,4 +13,10 @@ RSpec.describe SpellGenerator do
       expect(SpellGenerator::Generator.new.generate).to match(/\w+\s\w+/)
     end
   end
+
+  describe '#self_generate' do
+    it 'creates a spell' do
+      expect(SpellGenerator::Generator.new.self_generate('Magical', 'Spell')).to eq('Magical Spell')
+    end
+  end
 end
