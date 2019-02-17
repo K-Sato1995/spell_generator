@@ -1,0 +1,2 @@
+class SpellGeneratorError < StandardError
+end

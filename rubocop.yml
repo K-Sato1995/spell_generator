@@ -1,0 +1,59 @@
+AllCops:
+  Exclude:
+    - bin/*
+    - db/schema.rb
+    - db/migrate/*
+    - db/seeds/original.rb
+    - vendor/**/*
+    - node_modules/**/*
+    - tmp/*
+    - Guardfile
+    - Gemfile
+    - config/puma.rb
+    - config/spring.rb
+    - config/initializers/devise.rb
+    - db/data.rb
+    - spec/rails_helper.rb
+
+  DisplayCopNames: true
+
+# Missing magic comment # frozen_string_literal: true.
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+# Missing top-level class documentation comment.
+Style/Documentation:
+  Enabled: false
+
+Style/BlockComments:
+  Enabled: false
+
+Layout/TrailingBlankLines:
+  Enabled: false
+
+Style/NumericLiterals:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/Lambda:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*
+    - config/environments/*
+
+# Use only ascii symbols in comments.
+AsciiComments:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 33
+
+Metrics/MethodLength:
+  Max: 22
+
+Metrics/LineLength:
+  Max: 200
