@@ -25,14 +25,14 @@ You can do two things with this gem.
 (1) Create a random spell.
 
 ```ruby
-SpellGenerator::Generator.generate #=> "Brave fire"
-SpellGenerator::Generato.new.generate #=> "Symptomatic punch"
+SpellGenerator::Generator.generate #=> "brave fire"
+SpellGenerator::Generator.new.generate #=> "symptomatic punch"
 ```
 
 (2) Create a spell.
 
 ```ruby
-SpellGenerator::Generato.new.self_generate('Random' 'Fire') #=> "Random Fire"
+SpellGenerator::Generator.new.self_generate('Random' 'Fire') #=> "Random Fire"
 ```
 
 Told you it's useless.
