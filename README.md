@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/K-Sato1995/spell_generator.svg?branch=master)](https://travis-ci.org/K-Sato1995/spell_generator)
+
 # SpellGenerator
 This is a pretty useless gem I created for practice.
 
