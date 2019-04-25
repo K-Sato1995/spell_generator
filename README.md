@@ -16,7 +16,7 @@ Originally I started this project with [this post](https://dev.to/ksato1995/anyb
 # If you are not a begginer
 
 You can contribute to the project and the whole dev community by opening an issue here or helping new devs to complete their PRs😊. Some wonderful people have already opened some issues and also created PRs.
-I wholeheartedly appreciate them.
+I wholeheartedly appreciate them🙏🙏.
 
 Or you are always very welcome to tackle any issue, even if you are not a begginer,
 
@@ -52,6 +52,46 @@ SpellGenerator::Generator.new.generate #=> "symptomatic punch"
 ```ruby
 SpellGenerator::Generator.new.self_generate('Random' 'Fire') #=> "Random Fire"
 ```
+
+# How to run examples
+
+First, you have to move to the directory of this project in your terminal.
+
+```
+cd spell_generator
+```
+
+Second, run the command below.
+
+```
+ruby examples/spells.rb
+```
+
+That's it☀️!
+
+It would output some random spells for ya.
+
+```ruby
+"efficient blow"
+"entire stab"
+"Random Fire"
+```
+
+# How to run the test
+
+First, you have to move to the directory of this project in your terminal.
+
+```
+cd spell_generator
+```
+
+Second, run the command below.
+
+```
+rake spec
+```
+
+That's it☀️!
 
 ## License
 
