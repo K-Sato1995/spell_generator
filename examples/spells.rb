@@ -1,4 +1,4 @@
-require 'spell_generator'
+require_relative '../lib/spell_generator'
 
 # Generate.generate (Class method)
 p SpellGenerator::Generator.generate
