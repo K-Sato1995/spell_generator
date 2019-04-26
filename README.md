@@ -4,7 +4,7 @@
 
 It generates a random spell.
 
-# Why I created this project
+## Why I created this project
 
 Welcome!! I created this project specifically for helping people to take the first step of their OSS journeys⭐️⭐️.
 
@@ -13,7 +13,7 @@ That's why I want you to either open an issue or contribute to this project to p
 
 Originally I started this project with [this post](https://dev.to/ksato1995/anybody-who-wants-to-start-practice-contributing-to-oss-projects-59np) on [dev.to](https://dev.to/).
 
-# If you are not a begginer
+## If you are not a begginer
 
 You can contribute to the project and the whole dev community by opening an issue here or helping new devs to complete their PRs😊. Some wonderful people have already opened some issues and also created PRs.
 I wholeheartedly appreciate them🙏🙏.
@@ -53,18 +53,18 @@ SpellGenerator::Generator.new.generate #=> "symptomatic punch"
 SpellGenerator::Generator.new.self_generate('Random' 'Fire') #=> "Random Fire"
 ```
 
-# How to run examples
+## How to run examples
 
 First, you have to move to the directory of this project in your terminal.
 
 ```
-cd spell_generator
+$ cd spell_generator
 ```
 
 Second, run the command below.
 
 ```
-ruby examples/spells.rb
+$ ruby examples/spells.rb
 ```
 
 That's it☀️!
@@ -77,18 +77,18 @@ It would output some random spells for ya.
 "Random Fire"
 ```
 
-# How to run the test
+## How to run the test
 
 First, you have to move to the directory of this project in your terminal.
 
 ```
-cd spell_generator
+$ cd spell_generator
 ```
 
 Second, run the command below.
 
 ```
-rake spec
+$ rake spec
 ```
 
 That's it☀️!
