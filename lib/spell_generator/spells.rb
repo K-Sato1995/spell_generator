@@ -1,9 +1,9 @@
-SPELL_SET1 = %w[accurate sufficient ugly useful immediate entire healthy hot efficient
-                dramatic threatening brave greedy racial regular glorious pretty alcoholic
-                instinctive symptomatic merciful cute perpetual average astonishing shallow
-                hateful sacred divine amazing magnificent awesome tyrannical freezing
-                burning adorable lame friendly sickening poisonous].freeze
+SPELL_SET1 = %w[accurate adorable alcoholic amazing astonishing average awesome brave 
+                burning cute divine dramatic efficient entire freezing friendly glorious
+                greedy hateful healthy hot immediate instinctive lame magnificent merciful
+                perpetual poisonous pretty racial regular sacred shallow sickening 
+                sufficient symptomatic threatening tyrannical ugly useful].freeze
 
-SPELL_SET2 = %w[fire thunder attack blow smash strike smack cut poke stab punch kick kiss
-                flame darkness storm favor jump step hunt slap typhoon vortex curse frost
-                burn tornado flood pounce chop].freeze
+SPELL_SET2 = %w[attack blow burn chop curse cut darkness favor fire flame flood 
+                frost hunt jump kick kiss poke pounce punch slap smack smash 
+                stab step storm strike thunder tornado typhoon vortex].freeze
