@@ -9,7 +9,7 @@ It generates a random spell.
 Welcome!! I created this project specifically for helping people to take the first step of their OSS journeys⭐️⭐️.
 
 Contributing to an OSS project can be intimidating if you don't know how to do to it or have never experienced it. But if you know the process of making a PR and have already done it before, it can be very simple and fun.
-That's why I want you to either open an issue or contribute to this project to practice/start contributing to other OSS projects✨✨!!
+That's why I want you to either open an issue or create a PR to practice/start contributing to other OSS projects✨✨!!
 
 Originally I started this project with [this post](https://dev.to/ksato1995/anybody-who-wants-to-start-practice-contributing-to-oss-projects-59np) on [dev.to](https://dev.to/).
 
