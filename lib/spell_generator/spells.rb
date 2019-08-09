@@ -3,7 +3,7 @@ SPELL_ADJECTIVES = %w[abandoned accurate adorable alcoholic amazing astonishing 
                 glorious greedy hateful healthy hot immediate instinctive lame magnificent 
                 marvelous merciful perpetual poisonous pretty quirky racial regular sacred 
                 shallow sickening sufficient symptomatic terrific threatening tyrannical ugly 
-                useful zany].freeze
+                useful zany malevolent outrageous].freeze
 
 SPELL_VERBS = %w[accept attach attack bet bind blow burn buy carry choose chop commit curse cut 
                 decide doubt explain favor feed fire flame flood frost get give hunt improve 
